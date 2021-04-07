@@ -14,5 +14,5 @@
 (onload=function() {
     'use strict';
 
-    Calc.updateSettings({ clickableObjects: true, advancedStyling: true, invertedColors: true, showGrid: false});
+    Calc.updateSettings({ clickableObjects: true, advancedStyling: true, showGrid: false});
 })();
