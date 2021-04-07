@@ -1,0 +1,18 @@
+// ==UserScript==
+// @name         Automatic Desmos Settings
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       You
+// @match        https://www.desmos.com/calculator/*
+// @match        https://www.desmos.com/calculator/
+// @match        https://www.desmos.com/calculator
+// @match        https://www.desmos.com/*
+// @grant        none
+// ==/UserScript==
+
+(onload=function() {
+    'use strict';
+
+    Calc.updateSettings({ clickableObjects: true, advancedStyling: true, invertedColors: true, showGrid: false});
+})();
